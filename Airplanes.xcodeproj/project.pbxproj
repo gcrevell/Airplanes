@@ -12,6 +12,15 @@
 		7C281AB11D2DC1DF00495E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C281AAF1D2DC1DF00495E40 /* Main.storyboard */; };
 		7C281AB31D2DC1DF00495E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C281AB21D2DC1DF00495E40 /* Assets.xcassets */; };
 		7C281AB61D2DC1DF00495E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C281AB41D2DC1DF00495E40 /* LaunchScreen.storyboard */; };
+		7C3E27B31D2EF46600C24C95 /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3E27B21D2EF46600C24C95 /* AddDataViewController.swift */; };
+		7C905AA51D2DC6E600122942 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AA31D2DC6E600122942 /* DataModel.xcdatamodeld */; };
+		7C905ABB1D2DC88100122942 /* ___COREDATA_DATAMODELNAME___+CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AB41D2DC88100122942 /* ___COREDATA_DATAMODELNAME___+CoreDataModel.swift */; };
+		7C905ABC1D2DC88100122942 /* Distance+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AB51D2DC88100122942 /* Distance+CoreDataClass.swift */; };
+		7C905ABD1D2DC88100122942 /* Distance+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AB61D2DC88100122942 /* Distance+CoreDataProperties.swift */; };
+		7C905ABE1D2DC88100122942 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AB71D2DC88100122942 /* Student+CoreDataClass.swift */; };
+		7C905ABF1D2DC88100122942 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AB81D2DC88100122942 /* Student+CoreDataProperties.swift */; };
+		7C905AC01D2DC88100122942 /* Class+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905AB91D2DC88100122942 /* Class+CoreDataClass.swift */; };
+		7C905AC11D2DC88100122942 /* Class+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C905ABA1D2DC88100122942 /* Class+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		7C281AB21D2DC1DF00495E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C281AB51D2DC1DF00495E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C281AB71D2DC1DF00495E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3E27B21D2EF46600C24C95 /* AddDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		7C905AA41D2DC6E600122942 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		7C905AB41D2DC88100122942 /* ___COREDATA_DATAMODELNAME___+CoreDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___COREDATA_DATAMODELNAME___+CoreDataModel.swift"; sourceTree = "<group>"; };
+		7C905AB51D2DC88100122942 /* Distance+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Distance+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7C905AB61D2DC88100122942 /* Distance+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Distance+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7C905AB71D2DC88100122942 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7C905AB81D2DC88100122942 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7C905AB91D2DC88100122942 /* Class+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Class+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7C905ABA1D2DC88100122942 /* Class+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Class+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,31 @@
 		7C281AAA1D2DC1DF00495E40 /* Airplanes */ = {
 			isa = PBXGroup;
 			children = (
+				7C3E27B11D2EF44C00C24C95 /* Core Data */,
 				7C281AAB1D2DC1DF00495E40 /* AppDelegate.swift */,
 				7C281AAD1D2DC1DF00495E40 /* ViewController.swift */,
 				7C281AAF1D2DC1DF00495E40 /* Main.storyboard */,
+				7C3E27B21D2EF46600C24C95 /* AddDataViewController.swift */,
+				7C905AA31D2DC6E600122942 /* DataModel.xcdatamodeld */,
 				7C281AB21D2DC1DF00495E40 /* Assets.xcassets */,
 				7C281AB41D2DC1DF00495E40 /* LaunchScreen.storyboard */,
 				7C281AB71D2DC1DF00495E40 /* Info.plist */,
 			);
 			path = Airplanes;
+			sourceTree = "<group>";
+		};
+		7C3E27B11D2EF44C00C24C95 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				7C905AB41D2DC88100122942 /* ___COREDATA_DATAMODELNAME___+CoreDataModel.swift */,
+				7C905AB51D2DC88100122942 /* Distance+CoreDataClass.swift */,
+				7C905AB61D2DC88100122942 /* Distance+CoreDataProperties.swift */,
+				7C905AB71D2DC88100122942 /* Student+CoreDataClass.swift */,
+				7C905AB81D2DC88100122942 /* Student+CoreDataProperties.swift */,
+				7C905AB91D2DC88100122942 /* Class+CoreDataClass.swift */,
+				7C905ABA1D2DC88100122942 /* Class+CoreDataProperties.swift */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +173,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C905AC11D2DC88100122942 /* Class+CoreDataProperties.swift in Sources */,
+				7C905ABD1D2DC88100122942 /* Distance+CoreDataProperties.swift in Sources */,
+				7C905AA51D2DC6E600122942 /* DataModel.xcdatamodeld in Sources */,
+				7C905ABF1D2DC88100122942 /* Student+CoreDataProperties.swift in Sources */,
+				7C905ABC1D2DC88100122942 /* Distance+CoreDataClass.swift in Sources */,
+				7C905ABE1D2DC88100122942 /* Student+CoreDataClass.swift in Sources */,
+				7C905AC01D2DC88100122942 /* Class+CoreDataClass.swift in Sources */,
 				7C281AAE1D2DC1DF00495E40 /* ViewController.swift in Sources */,
+				7C905ABB1D2DC88100122942 /* ___COREDATA_DATAMODELNAME___+CoreDataModel.swift in Sources */,
 				7C281AAC1D2DC1DF00495E40 /* AppDelegate.swift in Sources */,
+				7C3E27B31D2EF46600C24C95 /* AddDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +339,22 @@
 				7C281ABC1D2DC1DF00495E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C905AA31D2DC6E600122942 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C905AA41D2DC6E600122942 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 7C905AA41D2DC6E600122942 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7C281AA01D2DC1DE00495E40 /* Project object */;
 }
